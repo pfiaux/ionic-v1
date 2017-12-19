@@ -6,6 +6,10 @@
   "repository": {
     "url": "git://github.com/ionic-team/ionic-v1.git"
   },
+  "scripts": {
+    "test": "gulp test",
+    "build:release": "gulp build --release && cp -r dist/* release/"
+  },
   "devDependencies": {
     "canonical-path": "0.0.2",
     "chalk": "^0.4.0",
